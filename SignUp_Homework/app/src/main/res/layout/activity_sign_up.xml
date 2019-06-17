@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/cabin"
+        android:gravity="center"
+        android:text="Register"
+        android:textColor="#000"
+        android:textSize="58dp" />
+    <TextView
+        android:fontFamily="@font/cabin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="Please fill in the box down below to register"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/firstname"
+        android:fontFamily="@font/cabin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="275dp"
+        android:layout_marginRight="220dp"
+        android:gravity="center"
+        android:hint="First name"
+        android:textColor="#000"
+        android:textSize="12dp" />
+
+    <EditText
+        android:id="@+id/lastname"
+        android:fontFamily="@font/cabin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="275dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:hint="Last name"
+        android:textColor="#000"
+        android:textSize="12dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:fontFamily="@font/cabin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email Address"
+        android:textSize="12dp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_marginTop="325dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+    <EditText
+        android:id="@+id/password"
+        android:fontFamily="@font/cabin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="12dp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_marginTop="375dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+
+    <EditText
+        android:id="@+id/confirmpassword"
+        android:fontFamily="@font/cabin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:textSize="12dp"
+        android:inputType="textPassword"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_marginTop="425dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+
+    <Button
+        android:id="@+id/btnsignup"
+        android:fontFamily="@font/cabin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="540dp"
+        android:onClick="OnClickBtn"/>
+    <TextView
+        android:onClick="OnClick"
+        android:fontFamily="@font/cabin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="610dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:textSize="12dp"
+        android:gravity="center"
+        android:text="By Clicking the Sigh Up button, you agree to our Term and Conditions, and Privacy Policy"/>
+
+</FrameLayout>
